@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="20dp"
+    android:layout_marginHorizontal="20dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/termsandconditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/pink"
+            android:layout_marginTop="20dp"
+            android:text="Terms and Conditions"
+            />
+
+        <View
+            android:id="@+id/horizontalLinee"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@android:color/darker_gray"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            >
+            <TextView
+                android:id="@+id/termsandconditionsmessage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:text="Eligibility: By using the LoveLobby app, you confirm that you are 18 years old or above.Users below this age are prohibited from accessing the platform.
+
+\n\nResponsibility for Actions:
+Users are solely responsible for their actions on LoveLobby. The platform does not assume responsibility for any consequences arising from user interactions, behavior, or content shared.
+
+\n\nContent Guidelines:
+Users agree not to share offensive, inappropriate, or illegal content. LoveLobby reserves the right to remove any content that violates these guidelines and may take appropriate action against the user.
+
+\n\nUser Conduct:
+Users must conduct themselves in a respectful and lawful manner while using LoveLobby. Any harassment, abuse, or harmful behavior towards others is strictly prohibited.
+
+\n\nAccount Security:
+Users are responsible for maintaining the security of their accounts. LoveLobby is not liable for any unauthorized access or use of user accounts.
+
+\n\nPrivacy Policy:
+    \n\nAge Verification:
+LoveLobby requires users to be 18 years old or above. The app collects and processes age information to ensure compliance with this policy.
+
+\n\nPersonal Information:
+LoveLobby may collect personal information, such as name, age, and location, to provide the app's services. This information is handled with utmost confidentiality and is not shared with third parties without user consent.
+
+\n\nData Security:
+LoveLobby employs industry-standard security measures to protect user data. However, users should be aware of the inherent risks of online communication and take necessary precautions.
+
+\n\nCookies and Analytics:
+LoveLobby may use cookies and analytics tools to enhance user experience and gather insights for app improvement. Users can manage cookie preferences in their settings.
+
+\n\nThird-Party Links:
+LoveLobby may contain links to third-party websites. Users are encouraged to review the privacy policies of these external sites, as LoveLobby is not responsible for their practices.
+
+\n\nAcknowledgment:
+By using LoveLobby, you acknowledge that you have read, understood, and agreed to these Terms and Conditions and the Privacy Policy.\n\nLoveLobby reserves the right to update these documents periodically, and users are responsible for staying informed about any changes.\n\n"
+                android:textAlignment="textStart"
+                tools:ignore="RtlCompat"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                />
+
+        </ScrollView>
+
+        <View
+            android:id="@+id/horizontalLine"
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+
+            >
+
+            <Button
+                android:id="@+id/confirmdialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:background="@drawable/confirm_button_dialogbox_background_color"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/canceldialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

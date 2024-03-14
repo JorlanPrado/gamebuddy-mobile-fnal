@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report Details"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextReportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Report Name"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextReportType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Report Type"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/deletaccbuttonlayout"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
